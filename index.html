@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Thais Amanda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/svg"> <!-- se vc clicar no aquivo favicon svg e renomear o final para xml vc vai conseguir ver o código que foi usado para criar esse favicon e vc pode ediatar esse codigo igual o html  
+    
+    ex path = caminho
+       fill = preenchimrnto
+       stroke = linha em volta do preenchimento
+       stroke-width = largura da linha -->
+
+    <script src="https://kit.fontawesome.com/1d9ec7c297.js" crossorigin="anonymous"></script> <!-- link do site para pegar os icones esse link fica dentro do site não é o link de pesquisa-->
+</head>
+<body class="escuro">
+   <header>
+        <nav id="menu">
+            <ul> <!--   ul>li*5>a   para criar 5 li com links dentro do ul-->
+                <li><a href="#video" class="link"><i class="fa-solid fa-house"></i></a></li> <!-- link do icone especifico que vc pegou no site-->
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#cursos" class="link"> <i class="fa-solid fa-book"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
+            </ul>
+
+        </nav>
+   </header> 
+
+   <main>
+       <section id="ficha"> <!-- section#ficha-->
+            <img src="imagens/fotoproffisional.png" alt="Thais Amanda" class="foto">
+            <h1>Thais Amanda</h1>
+            <p>Tenho aptidão para a área de Front-End e desenvolvo projetos com foco em clareza, organização e funcionalidade real. Busco transformar ideias em interfaces que façam sentido para quem vai usar.
+            Meu portfólio representa minha evolução prática na área: projetos completos, funcionais e próximos da realidade de uso, como sistemas de pedidos integrados ao WhatsApp e catálogos dinâmicos. 
+            Sou movida por aprendizado contínuo, gosto de desafios e levo a sério cada projeto que desenvolvo — porque acredito que código bem feito é aquele que resolve, organiza e facilita..</p>
+
+            <div id="social">
+                <a href="https://www.linkedin.com/in/thaisamanda-ti/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin" ></i></a>
+
+                <a href="https://github.com/Thais286" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+       </section>
+
+       <section id="detalhes">
+
+            <article id="skills">
+    <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+    <div id="skill-container">
+        <div class="item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> HTML5</span>
+                <span class="porcent">60%</span>
+            </div>
+            <div class="barra"><div class="progresso" style="width: 60%;"></div></div>
+        </div>
+        <div class="item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> CSS3</span>
+                <span class="porcent">60%</span>
+            </div>
+            <div class="barra"><div class="progresso" style="width: 60%;"></div></div>
+        </div>
+        <div class="item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> JavaScript</span>
+                <span class="porcent">40%</span>
+            </div>
+            <div class="barra"><div class="progresso" style="width: 40%;"></div></div>
+        </div>
+        <div class="item">
+            <div class="info">
+                <span class="nome"><i class="fa-solid fa-code"></i> PHP</span>
+                <span class="porcent">40%</span>
+            </div>
+            <div class="barra"><div class="progresso" style="width: 40%;"></div></div>
+        </div>
+    </div>
+</article><!--fim article#skills-->
+
+            <article id="formacao">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+
+                <div id="formacao-container">
+                    <div class="curso">
+                       <p class="periodo">2021-2024</p> 
+                       <h3 class="instituicao">Escola Estadual Professora Yolanda Martins</h3>
+                       <p class="titulacao">Ensino Médio</p>
+                    </div>
+                
+
+                <div class="curso">
+                       <p class="periodo">2025-2027(Cursando)</p> 
+                       <h3 class="instituicao">Estácio de Sá</h3>
+                       <p class="titulacao">Análise e desenvolvimento de sistemas</p> <!--vc vai fazer isso para todos os seus cursos-->
+                    </div>
+                </div>
+
+         </article><!--fim article#formacao-->
+
+
+           <article id="cursos">
+             <h2><i class="fa-solid fa-book"></i> Cursos Realizados</h2>
+            <ul class="lista-cursos">
+                <li>✓ HTML5 e CSS3 – Curso em Vídeo – 40hs</li>
+                <li>✓ JavaScript – Curso em Vídeo – 40hs</li>
+                <li>✓ PHP Moderno – Curso em Vídeo – 40hs</li>
+                <li>✓ Algoritmos – Curso em Vídeo – 40hs</li>
+                <li>✓ Git e GitHub – Curso em Vídeo – 40hs</li>
+                <li>✓ Banco de dados MySQL – Curso em Vídeo – 40hs</li>
+                <li>✓ Agentes de inteligência Artificial – Alura – 04hs</li>
+                <li>✓ Administração de Banco de Dados – Fundação Bradesco – 15hs</li>
+                <li>✓ Hardware e Software – Fundação Bradesco – 15hs</li>
+                <li>✓ Lógica de Programação com JavaScript – Estácio de Sá – 20hs</li>
+                <li>✓ Segurança Cibernética – Senai – 40hs</li>
+                 <li>✓ Formação profissionalizante – Proa – 100hs</li>
+                <li>✓ Inglês Intermediário – IFSul – 180hs</li>
+                <li>✓ Espanhol Básico – IFMG – 40hs</li>
+                <li>✓ Exel Intermediário– Enap – 30hs</li>
+            </ul>
+         </article><!--fim section#cursos-->
+
+
+
+            <article id="projetos">
+    <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos (imagem interativa)</h2>
+    
+    <div id="projeto-container"> 
+
+        <div class="projeto">
+            <div class="foto">
+                <img src="imagens/pisos.png" alt="projeto 01" class="img-projeto">
+            </div>
+            
+            <div class="projeto-info">
+                <p class="periodo">2025</p>
+                <h3 class="titulo">Projeto Pra uma empresa de pisos laminádos</h3>
+                <p>Projeto construido para treinar os meus conhecimentos de HTML5,CSS3 E JavaScript.</p>
+                <details class="descrição">
+                    <summary>Saiba mais</br></summary>
+                    <a href="https://thais286.github.io/oliver--pisos-/" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong>🏠 Site de Pisos Laminados, Rodapés e Vinílicos</strong>
+
+                    Projeto de site completo desenvolvido como vitrine digital e sistema de pedidos, voltado para a comercialização de pisos laminados, rodapés e pisos vinílicos. O projeto possui mais de 2.000 linhas de código, simulando um cenário real de e-commerce sob medida.
+
+                    O desenvolvimento teve como foco o aprimoramento da lógica em JavaScript, especialmente em cálculos dinâmicos, manipulação de listas grandes, controle de carrinho e organização de um projeto de médio/grande porte. O layout foi pensado para facilitar a navegação e simular um produto real pronto para uso comercial.
+
+                    Tecnologias utilizadas: HTML5, CSS3 e JavaScript.
+                    Projeto desenvolvido com foco em portfólio, aplicando conceitos práticos de desenvolvimento front-end e automação de pedidos via WhatsApp.
+                 </p>
+                </details>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <div class="foto">
+                <img src="imagens/confeitaria.png" alt="projeto 02" class="img-projeto">
+            </div>
+            <div class="projeto-info">
+                <p class="periodo">2025</p>
+                <h3 class="titulo">Projeto confeitaria</h3>
+                <p>Projeto construido para treinamento de layout e os avanços no curso de HTML.</p>
+                <details class="descrição">
+                    <summary>Saiba mais</summary>
+                    <a href="https://thais286.github.io/Site-Confeitaria/" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong>🎂 Site de Confeitaria com Pedidos via WhatsApp</strong>
+
+                    Projeto de site desenvolvido para uma confeitaria, com foco na exibição de produtos e automação de pedidos. O usuário pode visualizar os doces disponíveis com nome, imagem e preço, adicionar itens ao carrinho e finalizar a compra de forma simples e intuitiva.
+
+                    O projeto foi desenvolvido com um design limpo, direto e funcional, priorizando a experiência do usuário. Serviu como exercício prático para aprofundar conceitos fundamentais de JavaScript, como manipulação do DOM, uso de arrays e objetos, além de cálculos de subtotal e total em um fluxo de compra realista.
+
+                    Tecnologias utilizadas: HTML5, CSS3 e JavaScript.
+                    Projeto criado com foco em aprendizado prático e construção de portfólio front-end, simulando um sistema real de pedidos para pequenos negócios.</p>
+                </details>
+            </div>
+        </div>
+
+         <div class="projeto">
+            <div class="foto">
+                <img src="imagens/faunaextinsao.png" alt="projeto 03" class="img-projeto">
+            </div>
+            <div class="projeto-info">
+                <p class="periodo">2025</p>
+                <h3 class="titulo">Projeto Fauna e Flora</h3>
+                <p>Projeto construido no inicio do curso de HTML e CSS .Este projeto faz um alerta sobre a extinção da fauna e flora brasileira.</p>
+                <details class="descrição">
+                    <summary>Saiba mais</summary>
+                    <a href="https://thais286.github.io/Faauna-e-Flora-em-extin-o-Thais286/" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong>🌱 Projeto Fauna e Flora</strong>
+
+                    Código feito para por em prática os aprendizados adquiridos na faculdade de análise e desenvolvimento ne sistemas e no curso em vídeo do professor Gustavo Guanabara , contei com a ajuda da IA ,pois enfrentei muitas dificuldades por ser o meu primeiro programa usando HTML ,CSS e JS. Apesar dos diversos bugs ela me ajudou muito no desenvolvimento. O projeto expõe animais e plantas em extinção no Brasil,mostrando as causas pelas quais os levarão a esse estado de futura extinção se medidas eficazes não forem tomadas para mudar esse cenário alarmante .</p>
+
+
+                </details>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <div class="foto">
+                <img src="imagens/horadodia.png" alt="projeto 04" class="img-projeto">
+            </div>
+            <div class="projeto-info">
+                <p class="periodo">2025</p>
+                <h3 class="titulo">Hora do dia</h3>
+                <p>Site criado no Curso em vídeo de JavaScript, onde foi criado um site ,mostrando a hora do dia e imagens relacionadas com o horário.</p>
+                <details class="descrição">
+                    <summary>Saiba mais</summary>
+                    <a href=" https://thais286.github.io/Site-com-a-hora-do-dia/" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong> 🌤️Site Hora do dia</strong>
+                   
+                    Um dos primeiros projetos práticos de Front-end do meu portfólio.
+                    Focado na integração entre scripts JS e elementos de interface (DOM).
+                    O sistema altera o background e a foto principal baseado no relógio local.
+                    Desenvolvido com suporte didático do mestre Gustavo Guanabara.
+                    Demonstra domínio em seletores, eventos e manipulação de estilos via script.
+                    Acesse o código para ver a lógica de condições aplicada ao design.</p>
+
+                    
+                </details>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <div class="foto">
+                <img src="imagens/verificaridade.png" alt="projeto 05" class="img-projeto">
+            </div>
+            <div class="projeto-info">
+                <p class="periodo">2025</p>
+                <h3 class="titulo">Projeto Conversor de idade</h3>
+                <p>Projeto onde é calculada a idade e é mostrado uma foto relacionada ao género e idade corrswpondente</p>
+                 <details class="descrição">
+                    <summary>Saiba mais</summary>
+                    <a href="https://thais286.github.io/Verifica-o-de-idade/" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong>🧓Verificador de idade</strong>
+                    Site interativo feito para praticar a integração entre Front-end e Lógica.
+                    Orientado pelo professor Gustavo Guanabara no módulo de JavaScript.
+                    O sistema calcula a idade e exibe uma imagem baseada na faixa etária.
+                    Cobre as fases de infância, juventude, vida adulta e terceira idade.
+                    Ótimo exercício de manipulação de elementos HTML através do DOM.
+                    Código simples, funcional e focado em experiência do usuário</p>
+
+                    
+                </details>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <div class="foto">
+                <img src="imagens/android.png" alt="projeto 06"class="img-projeto">
+            </div>
+            <div class="projeto-info">
+                <p class="periodo">2025</p>
+                <h3 class="titulo">Projeto Android</h3>
+                <p>Projeto onde é mostrado o surgimento do Android e trechos de sua história</p>
+                    <details class="descrição">
+                    <summary>Saiba mais</summary>
+                    <a href="https://thais286.github.io/projeto-android/" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong>🤖 História do Android</strong>
+                        Webpage interativa que explora o surgimento do icônico mascote do Android.
+                        Contém fotos da criadora original e detalhes históricos do desenvolvimento.
+                        Construído com as melhores práticas de HTML5 e CSS3 (Módulo 2 do curso).
+                        Inclui seções de curiosidades e vídeos integrados para maior engajamento.
+                        O projeto prioriza a legibilidade e uma navegação fluida e intuitiva.
+                        Resultado final do curso de HTML5/CSS3 ministrado pelo Gustavo Guanabara.
+                         </p>
+
+                    
+                </details>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <div class="foto">
+                <img src="imagens/salariominimo.png" alt="projeto 07" class="img-projeto">
+            </div>
+            <div class="projeto-info">
+                <p class="periodo">2026</p>
+                <h3 class="titulo">Projeto de Salário Mínimo onde o úsuario coloca o valor e verifica o seu sálario</h3>
+                <p>Projeto construido para calcular o quanto uma pessoa ganha em relação ao salário mínimo</p>
+                <details class="descrição">
+                    <summary>Saiba mais</summary>
+                    <a href="https://github.com/Thais286/cursophp/tree/main/desafios/ex008" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong>💵Calculando sálarios</strong>
+                    Um utilitário simples de Front-end para análise de renda pessoal.
+                    Tecnologias: HTML5 para estrutura, CSS3 para UI e JavaScript para lógica.
+                    Permite ao usuário informar seu salário e receber uma análise comparativa.
+                    O projeto destaca habilidades em validação de formulários e exibição de dados.
+                    Desenvolvido para ser responsivo e visualmente agradável ao usuário.
+                    Uma solução prática para quem deseja entender seu poder de compra.</p>
+
+                    
+                </details>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <div class="foto">
+                <img src="imagens/conversordemoedasbcb.png" alt="projeto 08"class="img-projeto">
+            </div>
+            <div class="projeto-info">
+                <p class="periodo">2026</p>
+                <h3 class="titulo">Projeto de Conversor de Moedas</h3>
+                <p>Projeto construido para converter valores entre diferentes moedas usando a API do Banco Central</p>
+                <details class="descrição">
+                    <summary>Saiba mais</summary>
+                    <a href="https://github.com/Thais286/cursophp/tree/main/desafios/ex004" target="_blank" class="link-projeto">
+                   <i class="fa-solid fa-up-right-from-square"></i> Ver projeto ao vivo</a>
+
+                    <p><strong> 🪙Conversor de Moedas com API do Banco Central</strong>
+                    Projeto desenvolvido em PHP para conversão monetária em tempo real.
+                    Integração com API financeira para obter a cotação atualizada do dólar.
+                    Interface limpa com CSS, focada na facilidade de uso e clareza de dados.
+                    Possui lógica de tratamento de dados e formatação de padrões monetários.
+                    Inclui navegação simples com botões de ação e retorno à home.
+                    Prática de consumo de serviços externos e manipulação de variáveis PHP.</p>
+
+                    
+                </details>
+            </div>
+        </div>
+
+    </div> 
+        </article> <!--fim article#projetos-->
+       </section>
+   </main>
+
+   <footer>
+      Portifólio desenvolvido por <strong>Thais Amanda</strong> em 2026
+   </footer>
+
+   <div id="modal-img">
+    <img id="img-modal">
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
