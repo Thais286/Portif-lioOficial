@@ -33,11 +33,8 @@ body.escuro {
 }
 
 /* Adicione isso para garantir que as barras de progresso mudem de cor */
-#skill-container .progresso{
-  height: 100%;
-  background-color: var(--destaque);
-  border-radius: 4px;
-  transition: background-color 0.5s;
+.progresso {
+    background-color: var(--destaque) !important;
 }
 
 
@@ -234,7 +231,7 @@ article#video .video-container{
 }
 
 #formacao-container .instituicao{
-  color: var(--destaque-inverso);
+  color: var(--destaque);
   font-size: 1.1em;
 }
 
@@ -322,13 +319,13 @@ footer{
 }
 
 footer a {
-  color: var(--fundo-principal);
+  color: var(--destaque);
   text-decoration: none;
   font-weight: bold;
 }
 
 footer a:hover{
-  color: var(--fundo-principal);
+  color: var(--destaque-inverso);
 }
 
 /* RESPONSIVIDADE (Desktop) */
