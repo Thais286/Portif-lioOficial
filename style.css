@@ -32,6 +32,12 @@ body.escuro {
     --destaque-inverso: #121212;
 }
 
+body.escuro footer {
+  background-color:  #bb86fc!important;
+  color: rgb(0, 0, 0) !important;
+}
+
+
 /* Adicione isso para garantir que as barras de progresso mudem de cor */
 .progresso {
     background-color: var(--destaque) !important;
@@ -313,19 +319,19 @@ article#video .video-container{
 
 footer{
   background-color: var(--destaque);
-  color: var(--fundo-principal);
+  color: var(--texto);
   text-align: center;
   padding: 15px;
 }
 
 footer a {
-  color: var(--destaque);
+  color: var(--texto);
   text-decoration: none;
   font-weight: bold;
 }
 
 footer a:hover{
-  color: var(--destaque-inverso);
+ opacity: 0.8;
 }
 
 /* RESPONSIVIDADE (Desktop) */
