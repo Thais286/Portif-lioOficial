@@ -33,8 +33,11 @@ body.escuro {
 }
 
 /* Adicione isso para garantir que as barras de progresso mudem de cor */
-.progresso {
-    background-color: var(--destaque) !important;
+#skill-container .progresso{
+  height: 100%;
+  background-color: var(--destaque);
+  border-radius: 4px;
+  transition: background-color 0.5s;
 }
 
 
